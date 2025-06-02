@@ -1,0 +1,24 @@
+so basically cascading happens based on Four different parameters those are 
+
+1. position : This typically means If the same kind of CSS styling is there 
+each after another line, then the last line will get the most importance
+
+2. specificity : So specificity means that if we are defining a particular
+element, be it a list element,by its ID, by its class, and also by its 
+attribute.then the most specifying one would be its ID, because ID for each 
+element is unique. Then its attribute. If we have added an attribute draggable 
+to that particular element, then that is the second most prioritized 
+specification for that particular element. Then we have the classes, then 
+the.element type, or the element name, like list or paragraph tag.
+
+3. type : inline style > internal style > external style
+
+4. importance : 
+
+#link{
+    color : red ;
+}
+
+#link {
+    color : red !important ;
+}

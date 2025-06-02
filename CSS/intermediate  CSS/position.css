@@ -1,0 +1,55 @@
+#container {
+  height: 90vh;
+  width: 90vw;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.outer {
+  height: 250px;
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.static {
+  position: static;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  top:50px;
+}
+
+.relative {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  top:50px;
+}
+
+.absolute {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  top:150px;
+}
+
+.fixed {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  top:500px;
+  border:2px solid black;
+}
