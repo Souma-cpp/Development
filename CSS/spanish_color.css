@@ -1,0 +1,53 @@
+#container {
+  height: 80vh;
+  width: 50vw;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Make the list flex and wrap */
+ol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style each item like a block */
+li {
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 13px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+/* Style paragraphs inside list */
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+li .square {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+}

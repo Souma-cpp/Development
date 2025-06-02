@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#poster {
+  height: 70vh;
+  width: 60vw;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 14px;
+}
+
+#poster_image {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.title {
+  flex: 0 0 auto;
+  font-family: fantasy;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 4rem; /* Align text vertically */
+}
+
+.line {
+  flex: 1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+}
