@@ -1,0 +1,16 @@
+.container {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner {
+  flex-basis: 100px;
+  border: 2px solid black;
+  flex-grow: 1;
+  flex-shrink: 1;
+}

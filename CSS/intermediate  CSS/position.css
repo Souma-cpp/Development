@@ -26,7 +26,7 @@
   height: 200px;
   width: 200px;
   background-color: red;
-  top:50px;
+  top: 50px;
 }
 
 .relative {
@@ -34,7 +34,7 @@
   height: 200px;
   width: 200px;
   background-color: red;
-  top:50px;
+  top: 50px;
 }
 
 .absolute {
@@ -42,7 +42,7 @@
   height: 200px;
   width: 200px;
   background-color: red;
-  top:150px;
+  top: 150px;
 }
 
 .fixed {
@@ -50,6 +50,6 @@
   height: 200px;
   width: 200px;
   background-color: red;
-  top:500px;
-  border:2px solid black;
+  top: 500px;
+  border: 2px solid black;
 }
