@@ -1,0 +1,45 @@
+<!-- here we will get to know about the objects in JS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 400px;
+        width: 400px;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 12px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      h3 {
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+      }
+      button {
+        height: 50px;
+        width: fit-content;
+        padding: 15px;
+        font-size: 1.25rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Press a key to see what you pressed</h3>
+      <button onclick="document.location.reload()">Refresh</button>
+    </div>
+    <script src="main.js"></script>
+    <script src="keypress.js"></script>
+  </body>
+</html>
