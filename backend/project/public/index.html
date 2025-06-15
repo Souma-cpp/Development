@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .form-container {
+        background: #fff;
+        padding: 2.5rem 2rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .form-container h2 {
+        text-align: center;
+        margin: 0 0 1rem 0;
+        color: #333;
+        letter-spacing: 1px;
+      }
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      label {
+        font-weight: 500;
+        color: #555;
+      }
+      input[type="text"],
+      input[type="password"] {
+        padding: 0.75rem;
+        border: 1px solid #bdbdbd;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.2s;
+      }
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        border-color: #74ebd5;
+        outline: none;
+      }
+      button {
+        padding: 0.75rem;
+        background: linear-gradient(90deg, #74ebd5 0%, #acb6e5 100%);
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s;
+        margin-top: 0.5rem;
+      }
+      button:hover {
+        background: linear-gradient(90deg, #acb6e5 0%, #74ebd5 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-container" method="POST" action="/check">
+      <h2>Login</h2>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          autocomplete="username"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          autocomplete="current-password"
+        />
+      </div>
+      <button type="submit">Sign In</button>
+    </form>
+  </body>
+</html>
