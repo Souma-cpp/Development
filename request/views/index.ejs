@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Activity Space</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+        padding: 40px 50px;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+      }
+      .title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #4f3ca7;
+        margin-bottom: 24px;
+        letter-spacing: 1px;
+      }
+      .content {
+        margin: 18px 0;
+        font-size: 1.2rem;
+        color: #333;
+      }
+      .label {
+        font-weight: 600;
+        color: #764ba2;
+        margin-bottom: 6px;
+        display: block;
+        font-size: 1rem;
+      }
+      .value {
+        font-size: 1.5rem;
+        color: #222;
+        margin-bottom: 18px;
+      }
+      .icon {
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+        color: #667eea;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <% if (data.participans == 1) { %>
+      <div class="icon">🌟</div>
+      <div class="title"><%= data.activity %></div>
+      <div class="content">
+        <span class="label">Activity Type</span>
+        <div class="value"><%= data.type %></div>
+      </div>
+      <div class="content">
+        <span class="label">Number of Participants</span>
+        <div class="value"><%= data.participants %></div>
+      </div>
+      <% } else { %>
+      <p>No activity matched your criteria</p>
+      <% } %>
+    </div>
+  </body>
+</html>

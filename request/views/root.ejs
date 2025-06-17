@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Angela Wu's Request Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #6366f1;
+        color: #fff;
+        padding: 2rem 0;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
+      }
+      main {
+        max-width: 600px;
+        margin: 2rem auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(99, 102, 241, 0.08);
+        padding: 2rem;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #4b5563;
+        font-size: 1.2rem;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 2rem;
+        background: #6366f1;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+      .btn:hover {
+        background: #4f46e5;
+      }
+      footer {
+        text-align: center;
+        color: #a1a1aa;
+        margin: 2rem 0 1rem 0;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Angela Wu's Request Portal</h1>
+      <p>Your gateway to submitting and managing requests easily.</p>
+    </header>
+    <main>
+      <h2>Welcome!</h2>
+      <p>
+        This is the root page of the site. Use the button below to get started
+        with your request or explore more features.
+      </p>
+      <a href="/fun" class="btn">get a random activity for fun</a>
+    </main>
+    <footer>
+      &copy; <%= new Date().getFullYear() %> Angela Wu. All rights reserved.
+    </footer>
+  </body>
+</html>
