@@ -1,18 +1,21 @@
 {
   "name": "6.0-nosql",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
     "ejs": "^3.1.9",
-    "express": "^4.21.2",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
