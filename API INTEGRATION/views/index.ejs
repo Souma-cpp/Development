@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AOT Quotes for you</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700|Merriweather:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <!-- Logo SVG for favicon -->
+    <link rel="icon" type="image/svg+xml" href="https://i.pinimg.com/736x/26/4b/1d/264b1d0c02028dcfbef4c7b4a02a2c7d.jpg" />
+  </head>
+  <body class="aot-bg">
+    <header class="aot-header">
+      <img
+        src="https://i.pinimg.com/736x/26/4b/1d/264b1d0c02028dcfbef4c7b4a02a2c7d.jpg"
+        alt="Attack on Titan Logo"
+        class="aot-logo"
+      />
+      <h1>Attack on Titan Quotes</h1>
+      <p class="aot-subtitle">
+        Unleash the power of words from the world of Titans
+      </p>
+    </header>
+    <div class="aot-container">
+      <div class="aot-quote-box">
+        <div class="aot-quote">"<%= data.quote %>"</div>
+        <div class="aot-author">- <%= data.author %></div>
+      </div>
+      <button class="aot-btn" type="button" onclick="location.reload();">
+        Get New Quote
+      </button>
+    </div>
+  </body>
+</html>

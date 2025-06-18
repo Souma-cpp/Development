@@ -1,0 +1,101 @@
+body.aot-bg {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    font-family: "Merriweather", serif;
+    color: #f5f5f5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for a wide, short image */
+.aot-logo {
+    width: 90vw;
+    max-width: 900px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 0.5rem auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+.aot-header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  background: rgba(30, 30, 30, 0.85);
+  border-bottom: 4px solid #b71c1c;
+}
+.aot-logo {
+  width: 220px;
+  margin-bottom: 0.5rem;
+}
+.aot-header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin: 0.2em 0 0.2em 0;
+  color: #b71c1c;
+  text-shadow: 2px 2px 8px #000;
+}
+.aot-subtitle {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.aot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 2rem 1rem;
+}
+.aot-quote-box {
+  background: rgba(34, 34, 34, 0.95);
+  border: 2px solid #b71c1c;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 2rem 2.5rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  text-align: center;
+}
+.aot-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #ffe082;
+  text-shadow: 1px 1px 6px #000;
+}
+.aot-author {
+  font-size: 1.1rem;
+  color: #b71c1c;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.aot-btn {
+  background: #b71c1c;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.aot-btn:hover {
+  background: #7f1010;
+}
+@media (max-width: 600px) {
+  .aot-quote-box {
+    padding: 1rem 0.5rem;
+  }
+  .aot-logo {
+    width: 140px;
+  }
+  .aot-header h1 {
+    font-size: 1.5rem;
+  }
+}
