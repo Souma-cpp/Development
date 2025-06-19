@@ -2,65 +2,70 @@
 
 Welcome to the **Web Development Learning Repository**! This collection documents my journey through core web development concepts, practical implementations, and hands-on projects. Each subfolder focuses on a specific topic, providing code samples, explanations, and exercises to reinforce learning.
 
----
+--
 
 ## 📁 Repository Structure
 
 - **api-endpoints/**  
-    Explore the fundamentals of designing and implementing RESTful API endpoints.
+   Explore the fundamentals of designing and implementing RESTful API endpoints.
 
 - **api-integration/**  
-    Learn how to connect and consume external APIs within applications.
+   Learn how to connect and consume external APIs within applications.
 
 - **api-project/**  
-    A complete project demonstrating API design, development, and integration.
+   A complete project demonstrating API design, development, and integration.
 
 - **backend-blog-api/**  
-    Backend implementation of a blog API, including CRUD operations and data persistence.
+   Backend implementation of a blog API, including CRUD operations and data persistence.
 
 - **css/**  
-    Stylesheets and exercises covering CSS basics, layouts, and responsive design.
+   Stylesheets and exercises covering CSS basics, layouts, and responsive design.
 
 - **html/**  
-    HTML files and mini-projects to master web page structure and semantics.
+   HTML files and mini-projects to master web page structure and semantics.
 
 - **javascript/**  
-    Scripts and challenges to build proficiency in JavaScript programming.
+   Scripts and challenges to build proficiency in JavaScript programming.
 
 - **json-format/**  
-    Examples and exercises on JSON syntax, parsing, and data exchange.
+   Examples and exercises on JSON syntax, parsing, and data exchange.
 
 - **node/**  
-    Node.js fundamentals, including modules, file system operations, and server creation.
+   Node.js fundamentals, including modules, file system operations, and server creation.
 
 - **request-sending/**  
-    Techniques for sending HTTP requests using various tools and libraries.
+   Techniques for sending HTTP requests using various tools and libraries.
 
 - **rest-api/**  
-    In-depth exploration of REST API principles, best practices, and implementation.
+   In-depth exploration of REST API principles, best practices, and implementation.
+
+- **sql/**  
+   Foundational concepts, queries, and exercises for learning SQL and relational databases.
 
 - **version-control/**  
-    Tutorials and exercises on Git and version control workflows.
+   Tutorials and exercises on Git and version control workflows.
 
 - **view-engine/**  
-    Introduction to server-side rendering with view engines like EJS or Pug.
+   Introduction to server-side rendering with view engines like EJS or Pug.
 
 - **unix-commands/**  
-    Essential Unix/Linux command-line operations for developers.
+   Essential Unix/Linux command-line operations for developers.
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository:**  
-     ```bash
-     git clone <repository-url>
-     ```
+1. **Clone the repository:**
 
-2. **Navigate to a topic:**  
-     ```bash
-     cd <topic-folder>
-     ```
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. **Navigate to a topic:**
+
+   ```bash
+   cd <topic-folder>
+   ```
 
 3. **Follow the README or instructions within each subfolder** to explore code samples and exercises.
 
