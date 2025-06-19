@@ -17,4 +17,5 @@ This folder contains SQL scripts for learning and practicing SQL concepts.
 
 ## Author
 
-Angela Wu
+Soumaditya Dey
+
