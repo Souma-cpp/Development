@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main , html {
+  height: 100%;
+  width: 97%;
+  background-color: rgba(0, 128, 128, 0.945);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: rgba(240, 240, 72, 0.692);
+  color: black;
+  border-radius: 14px;
+}
+
+.left {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+h1,
+p {
+  margin-left: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.notes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.note {
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgba(240, 240, 72, 0.692);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  position: relative; /* or remove this if not strictly needed */
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 2.5rem;
+}
