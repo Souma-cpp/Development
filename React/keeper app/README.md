@@ -1,12 +1,64 @@
-# React + Vite
+# Keeper App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, beautiful note-taking web application inspired by Google Keep. Built with **React** and **Vite**, this project focuses on a clean UI and smooth user experience for creating and displaying short notes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, view, and delete notes
+- Responsive and modern UI
+- Fast development with Vite
+- Component-based architecture using React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/keeper-app.git
+cd keeper-app
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## Project Structure
+
+```
+keeper-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- CSS (or your preferred styling solution)
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+*Inspired by Google Keep. This project is for learning and demonstration purposes only.*
