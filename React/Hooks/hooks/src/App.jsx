@@ -1,8 +1,9 @@
 import Counter from "./Counter"
 import Time from "./Time"
+import Form from "./Form"
 function App() {
   return (
-    <Time/>
+    <Form/>
   )
 }
 
