@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 2rem 0;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1.5px solid #fda085;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+  background: #fafafa;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border: 1.5px solid #f6d365;
+  box-shadow: 0 0 0 2px #fda08533;
+}
+
+input::placeholder {
+  color: #bbb;
+  font-size: 1rem;
+  opacity: 1;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 95vw;
+    padding: 1.5rem 0.5rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
